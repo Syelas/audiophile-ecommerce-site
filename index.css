@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Manrope-reg";
+  src: url(./fonts/Manrope-Regular.ttf);
+}
+@font-face {
+  font-family: "Manrope-bold";
+  src: url(./fonts/Manrope-ExtraBold.ttf);
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.landing-page {
+  background-color: #0e0e0e;
+}
+
+.nav-section {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding: 3rem 10rem;
+  gap: 4rem;
+}
+
+.nav-items {
+  margin-left: -5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 2rem;
+
+  margin-left: 8rem;
+}
+
+.nav-section h3 {
+  font-family: "Manrope-bold";
+  font-size: 1.5rem;
+  font-weight: 900;
+  line-height: 1.5rem;
+
+  color: #fff;
+}
+.nav-section h5 {
+  font-family: "Manrope-reg";
+  font-size: 13px;
+  /* font-weight: 700; */
+  line-height: 1.5rem;
+  letter-spacing: 2px;
+
+  color: #fff;
+}
+
+.nav-icon > img {
+  width: 24px;
+  height: 24px;
+  margin-left: 15rem;
+}
+
+.nav-divider {
+  margin-left: 10rem;
+  margin-right: 10rem;
+  border-bottom: 1px solid #fff;
+  mix-blend-mode: normal;
+  opacity: 0.2;
+}
+
+.hero-section {
+  padding: 0 10rem;
+  display: grid;
+  grid-template-columns: 25% 75%;
+  gap: 2rem;
+}
+.hero-msg {
+  display: grid;
+  margin-top: 10rem;
+  /* gap: 1rem; */
+}
+.hero-msg h5 {
+  font-family: "Manrope-reg";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 10px;
+
+  color: #fff;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.hero-msg h1 {
+  font-family: "Manrope-reg";
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 2px;
+
+  color: #fff;
+}
+.hero-msg p {
+  font-family: "Manrope-reg";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+
+  color: #fff;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+
+button {
+  height: 3rem;
+  width: 50%;
+  background: #d87d4a;
+}
+button h3 {
+  padding: 15px 32px;
+  font-family: "Manrope-reg";
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 1px;
+
+  color: #fff;
+}
+.hero-img img {
+  width: 700px;
+  height: 700px;
+}
+.collection-section {
+  background-color: #f3f3f3;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+footer {
+  background-color: #101010;
+}
