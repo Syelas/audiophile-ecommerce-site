@@ -211,6 +211,29 @@ button h3 {
   mix-blend-mode: normal;
   opacity: 0.5;
 }
+.speakers_section > * {
+  background-color: #cacaca;
+  padding: 5rem;
+}
+.speakers_section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+
+  padding: 100px 82px 20px 82px;
+}
+.grid-col-span-2 {
+  grid-column: span 2;
+}
+
+.earphones {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.earphones > h3 {
+  flex-basis: 40%;
+}
 
 /* Footer/////////////////////////////// */
 footer {
