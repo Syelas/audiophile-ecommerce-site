@@ -159,11 +159,60 @@ button h3 {
 
 /* .collection-section */
 .collection-section {
-  background-color: #f3f3f3;
+  /* background-color: #f3f3f3; */
   padding-left: 100px;
-  padding-right: 100px;
+  padding-right: 150px;
 }
 
+.collection-items {
+  padding: 5rem;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+.collection-items > * {
+  display: flex;
+  flex-basis: 100%;
+  gap: 2rem;
+}
+.items {
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.items > h2 {
+  font-family: "Manrope-reg";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+
+  letter-spacing: 1.28571px;
+}
+.items > p {
+  font-family: "Manrope-reg";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+
+  color: #000000;
+
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+/* Footer/////////////////////////////// */
 footer {
   background-color: #101010;
   display: grid;
